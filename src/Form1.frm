@@ -122,7 +122,7 @@ Begin VB.Form Form1
          Charset         =   134
          Weight          =   290
          Underline       =   0   'False
-         Italic          =   0   'False
+         Italic          =   -1  'True
          Strikethrough   =   0   'False
       EndProperty
       ForeColor       =   &H00FFFFFF&
