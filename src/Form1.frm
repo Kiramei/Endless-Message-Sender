@@ -333,9 +333,7 @@ Set objShell = CreateObject("Wscript.Shell")
 Dim a As Integer: a = 0
 Clipboard.Clear
 Clipboard.SetText contentd
-
 Sleep 3000
-
 Do
 SendKeys "^(v)"
 SendKeys "{ENTER}"
